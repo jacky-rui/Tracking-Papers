@@ -1,6 +1,13 @@
 # 目标跟踪
 
-## CVPR 2024
+## 专题：视觉语言跟踪 Visual Language Tracking
+
+| 论文标题 | 时间 | 会议/期刊 | 跟踪类型 | 主要难点 | 创新点 |
+|---------|------|-----------|----------|----------|---------|
+
+## 最新论文整理
+
+### CVPR 2024
 
 | 论文标题 | 时间 | 会议/期刊 | 跟踪类型 | 主要难点 | 创新点 |
 |---------|------|-----------|----------|----------|---------|
@@ -20,7 +27,7 @@
 | DiffMOT: A Real-time Diffusion-based Multiple Object Tracker with Non-linear Prediction | 2024 | CVPR 2024 | 多目标 | 实时多目标跟踪中的非线性预测问题 | 基于扩散模型的实时多目标跟踪器，采用非线性预测方法 |
 | Delving into the Trajectory Long-tail Distribution for Muti-object Tracking | 2024 | CVPR 2024 | 多目标 | 多目标跟踪数据中的轨迹长尾分布问题 | 提出针对轨迹长尾分布的数据增强策略（SVA和DVA）和分组Softmax模块，减少长尾分布对性能的影响 |
 
-## ICCV 2023
+### ICCV 2023
 | 论文标题 | 时间 | 会议/期刊 | 跟踪类型 | 主要难点 | 创新点 |
 |---------|------|---------------|-------------|----------|---------|
 | Tracking Anything with Decoupled Video Segmentation | 2023 | ICCV 2023 | 单/多目标（视频分割任务） | 视频分割任务中训练数据标注成本高 | 提出解耦视频分割方法（DEVA），结合图像级分割和双向时间传播，减少对视频数据的依赖 |
@@ -34,7 +41,7 @@
 | CiteTracker: Correlating Image and Text for Visual Tracking | 2023 | ICCV 2023 | 单目标 | 目标外观变化剧烈，仅用单一目标图像样本难以定位 | 尚未提供详细创新点，但可能涉及图像与文本关联以增强目标表示 |
 | PVT++: A Simple End-to-End Latency-Aware Visual Tracking Framework | 2023 | ICCV 2023 | 单目标 | 未明确指出 | 提出PVT++框架，可能是针对延迟感知的端到端视觉跟踪的简单框架 |
 
-## TPAMI
+### TPAMI
 | 论文标题 | 时间 | 会议/期刊 | 跟踪类型 | 主要难点 | 创新点 |
 |---------|------|-----------|----------|----------|---------|
 | OmniTracker: Unifying Visual Object Tracking by Tracking-with-Detection | 2025年1月15日 | IEEE TPAMI | 单目标/多目标 | 不同任务（实例跟踪和类别跟踪）导致冗余训练和参数开销 | 提出"跟踪与检测"范式，通过统一的网络架构、模型权重和推理流程，解决所有跟踪任务，减少冗余 |
