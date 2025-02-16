@@ -2,8 +2,16 @@
 
 ## 专题：视觉语言跟踪 Visual Language Tracking
 
-| 论文标题 | 时间 | 会议/期刊 | 跟踪类型 | 主要难点 | 创新点 |
-|---------|------|-----------|----------|----------|---------|
+| 论文标题 | 时间 | 会议/期刊 | 主要难点 | 创新点 |
+|---------|------|------------|----------|---------|
+| Context-Aware Integration of Language and Visual References for Natural Language Tracking | 2024 | CVPR | 语言描述与视觉模板不一致导致的跟踪漂移；多模态融合的复杂性 | 提出联合多模态跟踪框架，包含提示调制模块和统一目标解码模块，实现端到端的单步预测 |
+| Divert More Attention to Vision-Language Object Tracking | 2024 | TPAMI | 缺乏大规模视觉语言标注视频，现有方法中视觉语言交互学习效果不佳 | 提出一种通用属性标注策略，构建大规模视觉语言跟踪数据库，并设计新型框架，通过对比损失函数对齐不同模态 |
+| MemVLT: Vision-Language Tracking with Adaptive Memory-based Prompts | 2024 | NeurIPs | 大多数视觉-语言跟踪器仍然过度依赖于初始固定的多模态提示，这些提示难以为目标的动态变化提供有效的指导 | 提出一种长期-短期多模态记忆系统，包括记忆储存，记忆交互和自适应提示生成。解决固定提示的带来的问题 |
+| Unifying Visual and Vision-Language Tracking via Contrastive Learning | 2024 | AAAI | 大多数现有跟踪器专为部分参考设置设计，难以在所有三种参考设置（BBOX、NL、NL+BBOX）中表现良好。此外，由于视觉和语言模态之间的语义差距，基于自然语言的跟踪器在纯边界框参考设置中的表现有限 | 模态统一特征提取器：在浅层编码器层中分别提取视觉和语言特征，深层编码器层中融合；多模态对比损失：通过计算语义标记与搜索区域嵌入之间的相似度进行对齐；模态自适应边界框头：提出基于分布的交叉注意力机制 |
+| CiteTracker: Correlating Image and Text for Visual Tracking | 2023 | ICCV | 文本提示对目标特征的总结更加抽象和稳定，有望解决单一模版的模糊歧义性在目标剧烈变化时的问题 | 提出文本增强跟踪系统，包括：文本生成模块、动态描述模块和基于注意力的相关模块 |
+| Joint Visual Grounding and Tracking with Natural Language Specification | 2023 | CVPR | 大多数现有方法将视觉定位和跟踪分为两个独立的步骤，分别使用独立的模型来完成这两个任务。这种分离的框架忽略了视觉定位和跟踪之间的联系 | 多源关系建模；语义引导的时序建模；端到端学习和推理 |
+| Type-to-Track: Retrieve Any Object via Prompt-based Tracking | 2023 | NeurIPS | 传统的多目标跟踪方法通常依赖于边界框或类别注释来识别和跟踪目标。这些方法在目标外观变化大、背景干扰多时有问题 | 将自然语言描述和视频帧中的目标对象嵌入到共同特征空间；使用Transformer架构捕捉时空特征；提供语言-多目标跟踪GroOT数据集 |
+
 
 ## 最新论文整理
 
